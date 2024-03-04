@@ -6,4 +6,19 @@
 
 :root {
     --dark-blue: #192236;
+    --very-dark-blue: #151c2c;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

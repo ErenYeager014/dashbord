@@ -1,10 +1,9 @@
 .sidebar {
     background-color: #192236;
     color: #aab4c3;
-    width: 300px;
+    min-width: 280px;
     padding: 20px;
     min-height: 100vh;
-    position: fixed;
 }
 
 .profile {

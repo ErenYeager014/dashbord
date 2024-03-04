@@ -1,15 +1,20 @@
-
 import NavBar from "@/Components/dashboard/NavBar"
 import SideBar from "@/Components/dashboard/SideBar"
 import { props } from "@/Types/propsTypes"
+import styles from "@/Styles/dashboard/dashboard.module.css"
 const Layout = ({ children }: props) => {
     return (
-        <div>
+        <div className={styles.dashboard}>
             <div>
                 <SideBar />
             </div>
             <div>
-                <NavBar />
+                <div>
+                    <NavBar />
+                </div>
+                <div>
+                    {children}
+                </div>
             </div>
         </div>
     )
